@@ -23,7 +23,12 @@ export class ErrorLoggingInterceptor implements HttpInterceptor {
             tap(
                 // Succeeds when there is a response; ignore other events
                 (event: any) => {
-                    if (event instanceof HttpResponse && event.status !== 200 && event.status !== 401 && event.status !== 403 && req.url !== this.globalConfig.endpoint) {
+                    if (
+                      event instanceof HttpResponse && event.status !== 200 &&
+                      event.status !== 401 &&
+                      event.status !== 403 &&
+                      req.url !== this.globalConfig.endpoint
+                    ) {
                         this.errorLoggingService.buildError(new Error(event.status + ' !== 200'), req);
                     }
                 },
