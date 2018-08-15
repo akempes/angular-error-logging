@@ -1,0 +1,23 @@
+{
+  "name": "angular-error-logging",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "dependencies": {
+    "rxjs": "^6.0.0",
+    "stacktrace-js": "^2.0.0",
+    "tslib": "^1.9.0"
+  },
+  "main": "dist/bundles/angular-error-logging.umd.js",
+  "module": "dist/fesm5/angular-error-logging.js",
+  "es2015": "dist/fesm2015/angular-error-logging.js",
+  "esm5": "dist/esm5/angular-error-logging.js",
+  "esm2015": "dist/esm2015/angular-error-logging.js",
+  "fesm5": "dist/fesm5/angular-error-logging.js",
+  "fesm2015": "dist/fesm2015/angular-error-logging.js",
+  "typings": "dist/angular-error-logging.d.ts",
+  "metadata": "dist/angular-error-logging.metadata.json",
+  "sideEffects": false
+}

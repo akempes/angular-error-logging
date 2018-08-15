@@ -1,0 +1,9 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+import { InjectionToken } from '@angular/core';
+/** @type {?} */
+export var GLOBALS = new InjectionToken('Global config for error-logging');
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZ2xvYmFscy5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2FuZ3VsYXItZXJyb3ItbG9nZ2luZy8iLCJzb3VyY2VzIjpbImxpYi9nbG9iYWxzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7QUFDQSxPQUFPLEVBQUUsY0FBYyxFQUFFLE1BQU0sZUFBZSxDQUFDOztBQUUvQyxXQUFhLE9BQU8sR0FBd0MsSUFBSSxjQUFjLENBQUMsaUNBQWlDLENBQUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEVycm9yTG9nZ2luZ09wdGlvbnMgfSBmcm9tICcuL2Vycm9yLWxvZ2dpbmctb3B0aW9ucyc7XG5pbXBvcnQgeyBJbmplY3Rpb25Ub2tlbiB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuXG5leHBvcnQgY29uc3QgR0xPQkFMUzogSW5qZWN0aW9uVG9rZW48RXJyb3JMb2dnaW5nT3B0aW9ucz4gPSBuZXcgSW5qZWN0aW9uVG9rZW4oJ0dsb2JhbCBjb25maWcgZm9yIGVycm9yLWxvZ2dpbmcnKTtcbiJdfQ==
