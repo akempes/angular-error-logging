@@ -7,6 +7,6 @@
   },
   "whitelistedNonPeerDependencies": [
     "rxjs",
-    "stacktrace-js"
+    "error-stack-parser"
   ]
 }
