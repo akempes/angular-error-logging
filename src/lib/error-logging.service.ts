@@ -13,8 +13,6 @@ import { GLOBALS } from './globals';
 
 export class ErrorLoggingService {
 
-    public endpoint = 'https://dashboard.7dev.nl/api/logs';
-
     constructor(
         @Optional() @Inject(GLOBALS) private globalConfig: ErrorLoggingOptions,
         private httpClient: HttpClient,
@@ -50,7 +48,7 @@ export class ErrorLoggingService {
     }
 
     reportError(error): Observable<any> {
-        return this.httpClient.post(this.endpoint, error, {
+        return this.httpClient.post(this.globalConfig.endpoint, error, {
             headers: {
                 'Authorization': 'Bearer ' + this.globalConfig.access_token
             }
